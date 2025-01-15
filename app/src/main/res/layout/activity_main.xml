@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_marginTop="15dp"
+        android:padding="8dp"
+        android:background="@color/purple_700">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/purple_200"/>
+        <EditText
+                android:id="@+id/editAge"
+                android:layout_width="135dp"
+                android:layout_height="55dp"
+                android:hint="အသက်"
+                android:textColor="@color/black"
+                android:layout_marginTop="35dp"
+                android:layout_marginStart="15dp"/>
+        <EditText
+            android:id="@+id/editpound"
+            android:layout_width="135dp"
+            android:layout_height="55dp"
+            android:hint="ကိုယ်အ‌လေးချိန်"
+            android:textColor="@color/black"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="175dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:background="@color/purple_700"
+        android:padding="8dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/purple_200"/>
+
+        <EditText
+            android:id="@+id/editinches"
+            android:layout_width="185dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="35dp"
+            android:hint="အရပ်အမြင့်(လက်မ)" />
+
+        <EditText
+            android:id="@+id/editfeet"
+            android:layout_width="155dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="15dp"
+            android:hint="အရပ်အမြင့်(ပေ)"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:background="@color/purple_700"
+        android:padding="8dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/purple_200"/>
+        <Button
+            android:id="@+id/btncal"
+            android:layout_width="135dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="တွက်ရန်"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:background="@color/purple_700"
+        android:padding="8dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/purple_200"/>
+
+        <TextView
+            android:id="@+id/resultt"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_marginStart="15dp"
+            android:text=""
+            android:textColor="@color/purple_700"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
